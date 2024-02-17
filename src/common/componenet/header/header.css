@@ -1,0 +1,44 @@
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-part,.right-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-group .input-area{
+    margin-left: 10px;
+    padding: 0px 15px;
+    width: 300px;
+}
+
+.header-icon{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.header-text{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.margin-left{
+    margin-left: 20px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.margin-top{
+    margin-top: 5px;
+}
+
+.my-15{
+    margin: 15px 0px;
+}

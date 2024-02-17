@@ -1,0 +1,50 @@
+.phone-cashback{
+    background: rgba(33, 193, 122, 0.7);
+    border: 1px solid #21C17A;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+    display: inline-block;
+    font-size:13px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.phone-product{
+    text-align: left;
+}
+.phone-name{
+    color: black;
+    font-weight: bold;
+}
+
+.phone-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 24%;
+}
+
+.current-price{
+    font-weight: bold;
+    color: black;
+}
+
+.discounted-price{
+    color: lightgray;
+    text-decoration: line-through;
+}
+
+.discount{
+    color: green;
+    font-size: 13px;
+}
+
+.phone-emi{
+    color: palevioletred;
+    font-weight: 700;
+}
+
+.phone-img{
+    width:90px
+}

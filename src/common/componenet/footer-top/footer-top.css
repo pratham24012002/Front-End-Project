@@ -1,0 +1,29 @@
+.feature-image{
+    height: 65px;
+}
+
+.feature-title{
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+
+.footer-top-main{
+    border-bottom: 1px solid #DDE5ED;
+}
+
+.feature-main{
+    border-right: 1px solid #DDE5ED;
+    padding: 40px;
+}
+
+.row .feature-main:last-child{
+    border-right: none;
+}
+
+.feature.subtitle{
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: left;
+}

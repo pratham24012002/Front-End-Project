@@ -1,0 +1,38 @@
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sort{
+    display: flex;
+    align-items: center;
+}
+
+.sort-by-label{
+    width: 50%;
+}
+
+.product-main-title{
+    font-size: 18px;
+}
+
+.bottom-section{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.custom-pagination{
+    margin:10px 0px; 
+}
+
+.custom-pagination .page-link{
+    color: black;
+}
+
+.custom-pagination .page-item.active .page-link{
+    background-color: white;
+    color: pink;
+    border-color: pink;
+}

@@ -1,0 +1,49 @@
+.filter-heading{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
+
+.filter-main{
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.brand-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-heading{
+    font-size: 15px;
+}
+
+.brand-top a{
+    text-decoration: none;
+    color: #FF2C91;
+}
+
+.pl-15{
+    padding-left: 15px;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.price-title{
+    font-size: 15px;
+}
+
+.price-range{
+    font-size: 24px;
+}

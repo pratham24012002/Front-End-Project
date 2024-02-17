@@ -1,0 +1,65 @@
+.footer-list-item a{
+    text-decoration: none;
+}
+
+.footer-list-item{
+    list-style: none;
+    text-align: left;
+    font-size: 14px;
+}
+
+.footer-heading{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0px;
+    line-height: 21px;
+    text-align: left;
+    padding-left: 2rem
+}
+
+.horizontal-sprites li {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+}
+
+.footer-icons ul li {
+    height: 30px;
+    width: 47px;
+    background-image: url(../../asset/sprite-cards.jpg);
+}
+
+.footer-icons ul li.mastercard {
+    background-position: -47px 0;
+}
+
+.footer-icons ul li.paypal {
+    background-position: -94px 0;
+}
+
+.footer-icons ul li.visa {
+    background-position: -141px 0;
+}
+
+.footer-icons{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.img-size{
+    width: 200px;
+    margin: 10px 0px;
+}
+
+.bottom{
+    text-align: left;
+    padding-left: 2rem;
+    padding-top:5px ;
+}
+
+.bi{
+    font-size: 30px;
+    padding-right: 20px;
+}

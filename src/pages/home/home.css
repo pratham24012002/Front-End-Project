@@ -1,0 +1,9 @@
+.common-section{
+    height: 400px;
+    border-top: 1px solid;
+}
+
+.product-body{
+    background-color:#f2f4f7;
+    padding: 50px;
+}

@@ -1,0 +1,40 @@
+.login-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 40px;
+    color: #1E2228;
+    margin-bottom: 5px;
+    margin-bottom: 3px;
+}
+
+.text-pink{
+    color: #ff2c91;
+    text-decoration: none;
+}
+
+.text-small{
+    font-size: 18px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.sign-in{
+    width: 100% !important;
+    background-color:#ff2c91 !important;
+    color: white !important;
+}
+
+.text-black{
+    color: black;
+}
