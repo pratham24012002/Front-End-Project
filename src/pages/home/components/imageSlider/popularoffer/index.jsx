@@ -22,7 +22,7 @@ const Popularoffer = () =>{
                     </div>
                     <div className="product-price">
                     <Tabs
-                        defaultActiveKey="profile"
+                        defaultActiveKey="100000"
                         id="justify-tab-example"
                         className="mb-3"
                         

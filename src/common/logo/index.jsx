@@ -12,10 +12,13 @@ const Logo = (props) =>{
     navigate("/")
   }
   return (
-    <div className="d-flex align-items-center cursor-pointer" onClick={goToHomePage}>
-      <img src={logo} alt="Company logo"/>
-      <div className={`logo-text ${textcolor}`}>Coffeee</div>
-    </div>
+    <div
+            className='d-flex align-items-center cursor-pointer'
+            onClick={goToHomePage}
+        >
+            <img src={logo} alt='logo of company coffeee' />
+            <div className={`logo-text mx-2 ${textcolor}`}>Coffeee</div>
+        </div>
   )
 }
 

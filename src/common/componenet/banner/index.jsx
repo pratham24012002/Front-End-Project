@@ -1,19 +1,25 @@
 import React from "react";
 import "./banner.css";
-import images from "../../asset/images.jpg"
+import topImage from "../../asset/mobile-large.svg"
+import bottomImage from "../../asset/mobile-bottom.svg"
 import Logo from "../../logo";
 
 const Banner =() =>{
     return(
-        <div className="app-banner">
-            <div className="left-container">
-                <Logo lightmode/>
-                <img src={images} alt="banner" />
-                <div className="banner-text">
-                    This is india largest mobile E-commerce company
-                </div>
+        <div className='app-banner'>
+        <div className='padding-40'>
+            <Logo lightmode />
+            <img
+                src={topImage}
+                alt='moble icon'
+                className='relative top70'
+            />
+            <img src={bottomImage} alt='moble icon' />
+            <div className='banner-text'>
+                India’s Leading Mobile Comparison Portal
             </div>
         </div>
+    </div>
         
     )
 }
