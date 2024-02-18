@@ -16,6 +16,10 @@
     width: 300px;
 }
 
+.input-group input.custom-width{
+    width: 400px;
+}
+
 .header-icon{
     display: flex;
     align-items: center;

@@ -14,9 +14,15 @@ import { useNavigate } from "react-router-dom";
             <div className="main-header my-15">
                 <div className="left-part">
                     <Logo/>
-                    <div class="input-group  d-flex margin-top">
-                        <input type="text" class="form-control input-area " placeholder="Search product and brand" aria-label="Search product and brand" aria-describedby="button-addon2" />
-                        <button class="btn btn-outline-secondary px-10" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
+                    <div className='input-group mx-4'>
+                        <input
+                            type='text'
+                            className='form-control custom-width'
+                            placeholder='Search for  product, brands or more…'
+                        />
+                        <span className='input-group-text' id='basic-addon2'>
+                            <i className='bi bi-search'></i>
+                        </span>
                     </div>
                 </div>
                 <div className="right-part">
