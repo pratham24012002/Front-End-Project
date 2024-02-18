@@ -33,19 +33,17 @@ const ProductMain=()=>{
                     )
                 })}
                 </div>
-                <div className="custom-pagination">
-                    <Pagination>
-                        <Pagination.Prev />
-                        <Pagination.Item active>{1}</Pagination.Item>
-                        <Pagination.Item>{2}</Pagination.Item>
-                        <Pagination.Item>{3}</Pagination.Item>
-                        <Pagination.Item >{12}</Pagination.Item>
-                        <Pagination.Item>{4}</Pagination.Item>
-                        <Pagination.Item>{5}</Pagination.Item>
-                        <Pagination.Next />
-
-                        </Pagination>
-                </div>
+                <div className='pagination'>
+                <Pagination className='custom-pagination'>
+                    <Pagination.Prev />
+                    <Pagination.Item active>{1}</Pagination.Item>
+                    <Pagination.Item>{2}</Pagination.Item>
+                    <Pagination.Item>{3}</Pagination.Item>
+                    <Pagination.Item>{4}</Pagination.Item>
+                    <Pagination.Item>{5}</Pagination.Item>
+                    <Pagination.Next />
+                </Pagination>
+            </div>
             </div>
         </div>
     )

@@ -15,7 +15,7 @@ const PhoneProduct=(props)=>{
     const {productData}=props;
     const {imageName,cashback,phoneName,currentPrice,discountPrice,discount,phoneEmi,id}=productData;
     return(
-        <div className="phone-product col" onClick={goToProductDetail}>
+        <div className="phone-product col cursor-pointer" onClick={goToProductDetail}>
         <div className="phone-image">
             <img src={imageName} alt="phone 1" className="phone-img"/>
         </div>

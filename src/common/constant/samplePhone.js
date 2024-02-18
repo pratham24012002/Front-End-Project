@@ -1,7 +1,11 @@
+import phone2 from "../asset/product-2.svg"
+import phone3 from "../asset/product-3.svg"
+import phone4 from "../asset/product-4.svg"
+
 export const  samplePhone=[{
-    imageName:"https://rukminim2.flixcart.com/image/416/416/jsdj8nk0/mobile/5/y/g/samsung-galaxy-s10-sm-g973fzwgins-original-imafdys4hrndgfzm.jpeg?q=70&crop=false",
+    imageName:phone2,
     cashback:"12% Cashback",
-    phoneName: "Samsung Galaxy S10 Plus(Creamic White,1 TB)",
+    phoneName: "Samsung Galaxy S10 Plus",
     currentPrice:"Rs.25,354",
     discountPrice:"Rs.29,9999",
     discount:"16% off",
@@ -9,9 +13,9 @@ export const  samplePhone=[{
     id:1556533,
 },
 {
-    imageName:"https://rukminim2.flixcart.com/image/416/416/jsdj8nk0/mobile/5/y/g/samsung-galaxy-s10-sm-g973fzwgins-original-imafdys4hrndgfzm.jpeg?q=70&crop=false",
+    imageName:phone2,
     cashback:"15% Cashback",
-    phoneName: "Iphone 15",
+    phoneName: "Iphone 15 256 GB Pink color",
     currentPrice:"Rs.58,354",
     discountPrice:"Rs.65,9999",
     discount:"1% off",
@@ -19,9 +23,9 @@ export const  samplePhone=[{
     id:153853,
 },
 {
-    imageName:"https://rukminim2.flixcart.com/image/416/416/jsdj8nk0/mobile/5/y/g/samsung-galaxy-s10-sm-g973fzwgins-original-imafdys4hrndgfzm.jpeg?q=70&crop=false",
+    imageName:phone3,
     cashback:"12% Cashback",
-    phoneName: "Vivo 12 wjith upfront camera with 64mpx",
+    phoneName: "Vivo 12 with 32 px front camera",
     currentPrice:"Rs.30,000",
     discountPrice:"Rs.35,9999",
     discount:"10% off",
@@ -29,9 +33,9 @@ export const  samplePhone=[{
     id:15337889,
 },
 {
-    imageName:"https://rukminim2.flixcart.com/image/416/416/jsdj8nk0/mobile/5/y/g/samsung-galaxy-s10-sm-g973fzwgins-original-imafdys4hrndgfzm.jpeg?q=70&crop=false",
+    imageName:phone4,
     cashback:"12% Cashback",
-    phoneName: "Samsung Galaxy S10 Plus(Creamic White,1 TB)",
+    phoneName: "Samsung Galaxy S10 Plus",
     currentPrice:"Rs.25,354",
     discountPrice:"Rs.29,9999",
     discount:"16% off",
@@ -39,9 +43,9 @@ export const  samplePhone=[{
     id:1533,
 },
 {
-    imageName:"https://rukminim2.flixcart.com/image/416/416/jsdj8nk0/mobile/5/y/g/samsung-galaxy-s10-sm-g973fzwgins-original-imafdys4hrndgfzm.jpeg?q=70&crop=false",
+    imageName:phone2,
     cashback:"12% Cashback",
-    phoneName: "Samsung Galaxy S10 Plus(Creamic White,1 TB)",
+    phoneName: "Samsung Galaxy S10 Plus",
     currentPrice:"Rs.25,354",
     discountPrice:"Rs.29,9999",
     discount:"16% off",
