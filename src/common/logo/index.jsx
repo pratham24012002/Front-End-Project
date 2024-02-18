@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../common/asset/logo.svg"
 import "./logo.css"
+
 import { useNavigate } from "react-router-dom";
 
 const Logo = (props) =>{
