@@ -46,11 +46,7 @@ const ProductDetailSeaction= (props)=>{
                 {availableColors.map(color => {
                         return <ColorPicker color={color}  />;
                     })}
-                {/* <ColorPicker color="black" active/>
-                <ColorPicker color="Grey"/>
-                <ColorPicker color="blue"/>
-                <ColorPicker color="White"/>
-                <ColorPicker color="Silver"/> */}
+               
                 </div>
             </div>
             <div className="quantity">

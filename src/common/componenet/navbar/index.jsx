@@ -2,9 +2,9 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import offer from "../../asset/offers.svg";
 
 import "./navbar.css"
+import OffersIcon from "../../asset/offers";
 
  const Navbarmain = () =>{
     return(
@@ -50,7 +50,7 @@ import "./navbar.css"
                     </div>
                     <div className='right-part'>
                         <div className='offers-text'>
-                            <img src={offer} alt="offers"></img>
+                            <OffersIcon/>
                             <span className='mx-1'>Offers</span>
                         </div>
                         <div>
