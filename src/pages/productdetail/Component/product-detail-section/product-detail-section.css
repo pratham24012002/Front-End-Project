@@ -101,3 +101,7 @@
 .policy-value{
     font-weight: bold;
 }
+
+.text-overline{
+    text-decoration: line-through;
+}

@@ -20,7 +20,7 @@ import { useNavigate } from "react-router-dom";
                             className='form-control custom-width'
                             placeholder='Search for  product, brands or more…'
                         />
-                        <span className='input-group-text' id='basic-addon2'>
+                        <span className='input-group-text sub-btn' id='basic-addon2'>
                             <i className='bi bi-search'></i>
                         </span>
                     </div>

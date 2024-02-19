@@ -1,37 +1,56 @@
 import React from "react";
 
 import "./product-detail-section.css"
-
 import returnIcon from "../../../../common/asset/return.svg";
 import cancellationIcon from "../../../../common/asset/cancel.svg";
 import truckIcon from "../../../../common/asset/truck.svg";
 import bankIcon from "../../../../common/asset/bank.svg"
 import OffersIcon from "../../../../common/asset/offers";
 import CartIcon from "../../../../common/asset/cart";
-
-
+import checkIcon from "../../../../common/asset/checkIcon.svg"
 import ColorPicker from "../color-picker"
-const ProductDetailSeaction= ()=>{
-    
+
+
+const ProductDetailSeaction= (props)=>{
+    const {productDetail}=props;
+    const{
+        phoneName="",
+        cashback="",
+        currentPrice="",
+        discountPrice="",
+        discount="",
+        phoneEmi="",
+        availableColors=[],
+        keyFeatures=[],
+    }=productDetail
+
     return(
         <div className="product-section-main">
-            <h1>phoneName</h1>
+            <h1 className="product-title">{phoneName}</h1>
             <div className="key-features">
                 <p>Key Features</p>
                 <ul>
-                    <li>Capacity 6Kg suitable for bachelors & couple</li>
-                    <li>Waranty 4years on product, 4 years on mentor</li>
-                    <li>800 rpm :Higher the spin speed, faster the drying time</li>
+                    {keyFeatures.map(feature=>{
+                        return(
+                            <li>
+                                 <img src={checkIcon} alt='check icon' />
+                                <span className='mx-2'>{feature}</span>
+                            </li>
+                        )
+                    })}
                 </ul>
             </div>
             <div className='color-picker section-gap'>
                 <h3 className='color-heading'>Choose Color</h3>
                 <div className="d-flex">
-                <ColorPicker color="black" active/>
+                {availableColors.map(color => {
+                        return <ColorPicker color={color}  />;
+                    })}
+                {/* <ColorPicker color="black" active/>
                 <ColorPicker color="Grey"/>
                 <ColorPicker color="blue"/>
                 <ColorPicker color="White"/>
-                <ColorPicker color="Silver"/>
+                <ColorPicker color="Silver"/> */}
                 </div>
             </div>
             <div className="quantity">
@@ -44,10 +63,10 @@ const ProductDetailSeaction= ()=>{
                 </select>
             </div>
             <div className='prices-and-taxes section-gap'>
-                <div className='top-part d-flex align-items-center justify-space-between'>
-                    <div className='current-price'>25</div>
-                    <div className='original-price mx-2'>20</div>
-                    <div className='discount mx-1'>10</div>
+                <div className='d-flex align-items-center justify-space-between'>
+                    <div className='current-price'>{currentPrice}</div>
+                    <div className='original-price mx-2 text-overline'>{discountPrice}</div>
+                    <div className='discount mx-1'>{discount}</div>
                 </div>
                 <div className='bottom-part'>Inclusive of all taxes</div>
             </div>
@@ -55,13 +74,13 @@ const ProductDetailSeaction= ()=>{
                 <div>
                     <img src={bankIcon} alt='bank icon' />
                     <span className='mx-3'>
-                        No cost 10. Standard EMI also available. T&C
+                        No cost {phoneEmi}. Standard EMI also available. T&C
                     </span>
                 </div>
                 <div>
                     <OffersIcon color='black' height='16' width='16' />
                     <span className='mx-3'>
-                        Bank Offer 15@ on Flipkart Axis Bank Credit Card.
+                        Bank Offer get {cashback} on Flipkart Axis Bank Credit Card.
                         T&C
                     </span>
                 </div>
