@@ -1,18 +1,17 @@
 import React,{useState} from "react";
 import "./product-picture.css";
 
-import phone1 from"../../../../common/asset/product-1.svg"
-import phone2 from"../../../../common/asset/product-2.svg"
-import phone3 from"../../../../common/asset/product-3.svg"
-
-const phonesImages = [phone1, phone2, phone3];
-const ProductPicture=()=>{
+const ProductPicture=(props)=>{
+    const {productImage}=props;
+    const{
+        imageArray=[]
+    }=productImage;
     const [selectedThumbnail, setSelectedThumbnail] = useState(0);
     return(
         <div className='product-pictures-main'>
             <div className='row'>
                 <div className='col-md-2'>
-                    {phonesImages.map((phoneImg, index) => {
+                    {imageArray.map((phoneImg, index) => {
                         return (
                             <div
                                 key={phoneImg}
@@ -36,7 +35,7 @@ const ProductPicture=()=>{
                 </div>
                 <div className='col-md-10 phone-container'>
                     <img
-                        src={phonesImages[selectedThumbnail]}
+                        src={imageArray[selectedThumbnail]}
                         alt='phone main'
                         className='img-fluid phone-img'
                     />

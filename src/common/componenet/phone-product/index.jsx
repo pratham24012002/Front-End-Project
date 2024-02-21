@@ -13,11 +13,11 @@ const PhoneProduct=(props)=>{
     }
 
     const {productData}=props;
-    const {imageName,cashback,phoneName,currentPrice,discountPrice,discount,phoneEmi,id}=productData;
+    const {imageName,cashback,phoneName,currentPrice,discountPrice,discount,phoneEmi,imageArray=[],id}=productData;
     return(
         <div className="phone-product col cursor-pointer" onClick={goToProductDetail}>
         <div className="phone-image">
-            <img src={imageName} alt="phone 1" className="phone-img"/>
+            <img src={imageArray[0]} alt="phone 1" className="phone-img"/>
         </div>
         <div className="phone-cashback">
            {cashback}

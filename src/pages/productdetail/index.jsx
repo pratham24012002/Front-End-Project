@@ -40,7 +40,7 @@ const ProductDetail=()=>{
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-5">
-                                   <ProductPicture />
+                                   <ProductPicture productImage={productDetail}/>
                                 </div>
                                 <div className="col-md-6">
                                     <ProductDetailSeaction productDetail={productDetail}/>
